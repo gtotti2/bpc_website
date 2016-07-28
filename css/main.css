@@ -384,6 +384,7 @@
 		    transition: opacity .5s;
 		    -webkit-transition: opacity .5s;
 		    z-index: 200;
+		  	background: rgba(0, 0, 0, 0.44);
 		}
 	
 		.rollover:hover .rolloverbg{
