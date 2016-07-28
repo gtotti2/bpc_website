@@ -195,8 +195,6 @@
 		label:hover{
 			background-color: #8F0CFF;
 		}
-		
-		
 
 		label span::before {
 		  transform-origin: top right;
@@ -233,7 +231,7 @@
 		}
 
 		section{
-			height: 100vh;
+			min-height: 100vh;
 			padding: 10vh;
 		}
 
