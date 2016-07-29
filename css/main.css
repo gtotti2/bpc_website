@@ -1,9 +1,4 @@
 	@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
-		body{
-			background-color:#252525;
-		
-			
-		}
 		*{
 			margin:0;
 			padding: 0;
@@ -230,12 +225,17 @@
 		  transform: translateX(10px) translateY(0px) rotate(-45deg);
 		}
 
+		section{
+			height: 100vh;
+			background-color:#252525;
+		}
+
 
 		section h1{
 			text-align: center;
     		font-size: 36px;
     		font-weight: 100;
-    		margin: 80px 0px;
+    		padding: 120px 0px;
 			}
 
 		section h1:after{
@@ -315,12 +315,17 @@
 		section.third{
 			background-color:#cccccc;
 		}
+
+		section.third h1{
+			color:#111111;
+		}
 		section.third p{
 			color:#111111;
 			max-width:490px;
 			text-align: center;
 			margin: 0 auto;
-			line-height:1.5em;
+			line-height:1.8em;
+			padding: 0px 40px;
 		}
 
 		/* Projects */	
@@ -345,10 +350,9 @@
 			float: left;
 		}
 
-		@media only screen and (max-width: 600px) {
+		@media only screen and (max-width: 760px) {
     	#projects .tiled-work-item{ 
         		width: 100%;
-        		margin: 10px 0px;
     		}
 		}
 
@@ -371,7 +375,6 @@
 			position: absolute;
 		    top: 0;
 		    left: 0;
-		    height: 100%;
 		    width: 100%;
 		}
 		.tiled-item img{
@@ -385,7 +388,7 @@
 		
 		.tiled-item .item .rollover{
 			width: 100%;
-		    height: 100%;
+		    min-height: 100%;
 		    position: absolute;
 		    top: 0;
 		    left: 0;
@@ -490,7 +493,7 @@
 
 		.tiled-item .item .rollover .rolloverbg{
 		    width: 100%;
-		    height: 100%;
+		    min-height: 100%;
 		    background-color: #000;
 		    position: absolute;
 		    opacity: .5;

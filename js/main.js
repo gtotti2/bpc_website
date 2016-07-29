@@ -14,17 +14,20 @@ for (var i = $links.length - 1; i >= 0; i--) {
 /* PLAY VIDEO */
 
 var item = document.querySelectorAll('.rollover');
+var videos = document.querySelectorAll('.tile-video > video');
 
+for (var i = 0; i < videos.length; i++) {
+	videos[i].pause();
+	videos.currentTime = 0;
+}
 
 for (var i = 0; i < item.length; i++) {
     item[i].addEventListener("mouseenter",function(e) {
     	
     	var video = this.parentNode.querySelector("video");
+    	
 		if (video.paused) {
     		video.play(); 
-		}
-		else {
-			video.currentTime = 0;
 		}
 	},false);
 
