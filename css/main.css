@@ -8,7 +8,7 @@
     		position: fixed;
     		background-color: transparent;
     		height: 110px;
-    		line-height: 110px;
+    		line-height: 80px;
     		transition: height .4s ease-in;
     		width: 100%;
     		z-index: 999;
