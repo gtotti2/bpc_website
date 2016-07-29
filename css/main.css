@@ -230,6 +230,10 @@
 		  transform: translateX(10px) translateY(0px) rotate(-45deg);
 		}
 
+		section{
+			height: 100vh;
+		}
+
 
 
 		section h1{
@@ -312,7 +316,18 @@
 		.initial span{
 			font-weight: 900;
 		}
+		/*About*/
 
+		section.third{
+			background-color:#cccccc;
+		}
+		section.third p{
+			color:#111111;
+			max-width:490px;
+			text-align: center;
+			margin: 0 auto;
+			line-height:1.5em;
+		}
 
 		/* Projects */	
 
