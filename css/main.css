@@ -226,7 +226,6 @@
 		}
 
 		section{
-			height: 100vh;
 			background-color:#252525;
 		}
 
@@ -258,6 +257,7 @@
 			  z-index: -100;
 			 padding: 0;
 			 overflow: hidden;
+			 height: 100vh;
 		}
 
 		.initial video {
@@ -284,7 +284,7 @@
 
 		@media (max-width: 767px) {
 		  .initial {
-		    background: url('http://creative-minds.pt/wp-content/uploads/2014/06/print.jpg') center center / cover no-repeat;
+		    background: url('../thumb/back_dudu.jpg') top center / cover no-repeat;
 		  }
 
 		  .initial video {
@@ -312,15 +312,11 @@
 		}
 		/*About*/
 
-		section.third{
-			background-color:#cccccc;
-		}
-
 		section.third h1{
-			color:#111111;
+			color:#ffffff;
 		}
 		section.third p{
-			color:#111111;
+			color:#ffffff;
 			max-width:490px;
 			text-align: center;
 			margin: 0 auto;
